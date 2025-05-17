@@ -1,5 +1,6 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
+#Using Google's FLAN. Can modify this to use any other model too
 model_Name="google/flan-t5-base"
 
 model=AutoModelForSeq2SeqLM.from_pretrained(model_Name)
